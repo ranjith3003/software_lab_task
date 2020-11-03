@@ -1,0 +1,79 @@
+<html>
+<head><title>Ticket Reservation</title>
+<center><h1>Ticket Reservation Systems</h1></center>
+</head> 
+<style>
+body
+{
+background: url("https://www.ledgerinsights.com/wp-content/uploads/2018/05/Depositphotos_11595092_850-810x524.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+  color:white;
+  font-size:25px;
+}
+</style>
+<body>
+<fieldset><form method="post" action="welcome.php">
+Name(in CAPITAL):
+<input type="text" placeholder="Name" name="Name" id="Name" value=""><br><br>
+Phone number:
+<select>
+<option>+91</option>
+<option>+355</option>
+<option>+376</option>
+<option>+244</option>
+<option>+81</option>
+<option>+972</option>
+<option>+39</option>
+<option>+93</option>
+<option>+62</option>
+</select>
+<input type="number" placeholder="Ph.No" name="phone_number" id="phone_number" value=""><br><br>
+Journey starting date:
+<input type="date" name="Journey_starting_date" id="Journey_starting_date" value=""><br><br>
+Journey starting time:
+<input type="time" name="Journey_starting_time" id="Journey_starting_time" value=""><br><br>
+Starting place:
+<select name="Starting_place" id="Starting_place">
+<option value="Chennai">Chennai</option>
+<option value="Coimbatore">Coimbatore</option>
+<option value="Cochin">Cochin</option>
+<option value="Vishakapatnam">Vishakapatnam</option>
+<option value="Erode">Erode</option>
+<option value="Kolkata">Kolkata</option>
+</select><br><br>
+Destination:
+<select name="Destination" id="Destination">
+<option value="Mumbai">Mumbai</option>
+<option value="Delhi">Delhi</option>
+<option value="Cochin">Cochin</option>
+<option value="Vishakapatnam">Vishakapatnam</option>
+<option value="Erode">Erode</option>
+<option value="Kolkata">Kolkata</option>
+</select><br><br>
+AC/Non-AC:
+<input type="radio" name="AC/Non-AC" id="AC/Non-AC" value="a"checked>AC
+<input type="radio" name="AC/Non-AC" id="AC/Non-AC" value="n">Non-AC<br><br>
+Class:
+<select name="Class" id="Class">
+<option value="Reserved">Reserved</option>
+<option value="Unreserved">Unreserved</option>
+</select><br><br>
+Mode of Transport:
+<select name="Mode of Transport" id="Mode of Transport">
+<option value="Bus">Bus</option>
+<option value="Ship">Ship</option>
+<option value="Airplane">Airplane</option>
+<option value="Train">Train</option>
+</select><br><br>
+Are you a <u><b>medical practitioner ?</b></u><br>
+<u style="font-size:15px;">(You may be of great help during emergency situations)</u>
+<br>
+<input type="radio" name="11" value="">Yes
+<input type="radio" name="11" value=""checked>No<br><br>
+<center><input type="submit" name="13" value="Submit form"></center>
+</form></fieldset>
+<mark style="text-color:white"><a href="C:\xampp\htdocs\software\transports.html" target="_blank">Available Transports</a></mark>
+</body>
+</html>
